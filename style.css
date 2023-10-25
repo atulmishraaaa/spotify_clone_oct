@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Nunito+Sans:opsz@6..12&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #121212;
+    font-family: 'Montserrat,sans-serif ';
+    color: #b3b3b3;
+}
+.side_bar{
+    position:fixed;
+    left: 0;
+    top:0;
+    bottom:0;
+    width:300px;
+    background-color: #000000;
+    padding: 24px;
+}
+.side_bar .logo img {
+    width: 130px;
+}
+.side_bar .nav ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.side_bar .nav ul li{
+    padding: 10px ;
+}
+.side_bar .nav ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+.side_bar .nav ul li .fa{
+     font-size: 18px;
+     margin-right: 18px;
+}
+.side_bar .nav ul li a:hover{
+    color: white;
+
+}
+.side_bar ul li a h4{
+    text-decoration: none;
+    position: absolute;
+    bottom: 70px;
+
+}
+.main{
+    margin-left: 350px; 
+    margin-bottom: 100px;
+}
+.main .topbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.main .topbar .left_right button{
+     color:white;
+     cursor: not-allowed;
+     width: 34px;
+     height: 34px;
+     border: 0px;
+     border-radius: 100%;
+     font-size: 12px;
+     background-color: #000000;
+}
+.main .user{
+    display: flex;
+    margin-right: 20px;    
+}
+.main .user .user_name{
+    margin-top: 5px;
+}
+.main .user img{
+    border-radius: 50%;
+}
+.main .main1{
+    margin-left: 20px;
+    max-width: 980px;
+    margin-top: 25px;
+}
+.main .main1 h3{
+    font-size: 25px;
+}
+.main .main1 .main01{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 100px;
+   
+}
+.main .main1 .rect{
+    display: flex;
+    width: 220px;
+    height: 60px;
+    background-color: #303030;
+    border-radius: 3px;
+    align-items: center;
+    margin-top: 25px;
+    margin-right: 25px;
+    
+    
+    
+}
+.main .main1 .rect span{
+    margin-left: 15px;
+    
+}
